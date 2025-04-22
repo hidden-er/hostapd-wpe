@@ -88,7 +88,7 @@ make install
 With all of that complete, you can run hostapd. The patch will create a new hostapd-wpe.conf, which you'll likely need to modify in order to make it work for your attack. Once ready just run
 
 ```
-hostapd /etc/hostapd-wpe/hostapd-wpe.conf
+hostapd-wpe /etc/hostapd-wpe/hostapd-wpe.conf
 ```
 
 Look in the output for the username/challenge/response. It'll be there and in a hostapd-wpe.log file in the directory you ran hostapd from for instance here are the EAP-FAST Phase 0 creds from stdout:
